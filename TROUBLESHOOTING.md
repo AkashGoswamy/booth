@@ -93,4 +93,4 @@ Rule of thumb: if you see `UNCERTAIN` with `answer=None` and `attempts > 1`, loo
 
 **What to do.** Test your `compare_fn` on its own with answers you know should pass and fail, including a deliberately wrong one, before wiring it in. Simple keyword or stance checks are fine for demos; use an embedding, entailment, or LLM-judge comparison for real use.
 
-**Seen in:** nearly every example, for instance [`examples/Vedantgitbot_groq`](examples/Vedantgitbot_groq) and the Anthropic example, whose RESULTS.md lists lexical phrase matching as a limitation.
+**Seen in:** nearly every example, for instance [`examples/Vedantgitbot_groq`](examples/Vedantgitbot_groq) and the Anthropic example ([`examples/opencode13241-eng_anthropic`](examples/opencode13241-eng_anthropic)), whose RESULTS.md lists lexical phrase matching as a limitation.
